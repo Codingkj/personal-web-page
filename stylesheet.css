@@ -1,5 +1,5 @@
 .headerbox {
-  background-color: #D699FF; }
+  background-color: #E1C3FF; }
 
 .profilepic {
   float: left;
@@ -12,6 +12,10 @@ h2 {
   font-family: Verdana;
   font-size: 25px;
   font-weight: 600; }
+
+.jtitle {
+  color: blue;
+  font-weight: 700; }
 
 .Karen-title {
   font-family: Arial;
@@ -31,20 +35,16 @@ h2 {
   font-size: 1vw;
   margin-left: 2vw; }
 
-.experienceList {
-  font-family: Helvetica Neue, Helvetica,Arial,sans-serif;
-  font-size: 1vw;
-  margin-left: 10vw; }
-
 .headertext {
   font: Helvetica;
   font-size: 4vw; }
 
 .cvtext {
-  font: arial;
+  font-family: Arial,sans-serif;
   font-size: 1vw;
-  margin-left: 4vw;
-  font-style: justify; }
+  margin-left: 5vw;
+  text-align: justify;
+  margin-right: 25vw; }
 
 .footer-text {
   font-size: 0.7vw; }
@@ -52,13 +52,35 @@ h2 {
 .subtitle {
   font-size: 1vw; }
 
+.secondcolumn {
+  position: relative;
+  left: -10vw; }
+
+.toplist {
+  margin-left: 4vw; }
+
+.finaltext {
+  color: #6EB7FF; }
+
+/* unvisited link */
+a:link {
+  color: blue; }
+
+/* visited link */
+a:visited {
+  color: purple; }
+
+/* mouse over link */
+a:hover {
+  color: aqua; }
+
+/* selected link */
+a:active {
+  color: blue; }
+
 .stdpage {
-  background-color: #D699FF;
+  background-color: #E1C3FF;
   border: 5px solid blue;
   margin: 5vw 5vw 5vw 5vw; }
-
-.image-size {
-  width: 128px;
-  hieght: 99px; }
 
 /*# sourceMappingURL=stylesheet.css.map */
