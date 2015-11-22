@@ -20,6 +20,12 @@ h2 {
   display: inline;
   margin-left: 5vw; }
 
+.form-group {
+  width: 50vw; }
+
+.form-control {
+  size: 40vw; }
+
 .stdpage {
   background-color: #C2E0FF;
   border: 5px solid blue; }
